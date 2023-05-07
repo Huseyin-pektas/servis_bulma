@@ -8,7 +8,8 @@ export const setCategoryAction = (payload)=>{
 }
 
 const initialState = {
-    categories :[]
+    categories :[],
+    initialized :false
 }
 export default function categoryReducers(state = initialState, action){
     switch (action.type) {

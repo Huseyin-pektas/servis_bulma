@@ -11,7 +11,7 @@ export default function Header() {
                 </Link>
                 <nav className="d-inline-flex mt-2 mt-md-0 ms-md-auto">
                     <Link to={"/"} className="me-3 py-2 text-dark text-decoration-none" >Anasayfa</Link>
-                    <Link to={''} className="me-3 py-2 text-dark text-decoration-none" >Giriş Yap</Link>
+                    <Link to={'/category/details'} className="me-3 py-2 text-dark text-decoration-none" >Giriş Yap</Link>
                     <Link to={"/category"} className="me-3 py-2 text-dark text-decoration-none" >Kategoriler</Link>
                     <Link to={""} className="py-2 text-dark text-decoration-none" >Kayıt Ol</Link>
                 </nav>

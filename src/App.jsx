@@ -42,6 +42,7 @@ function App() {
         <Header />
         <Routes>
           <Route index element={<MainPage />} />
+          
           <Route path='category'>
             <Route index element={<CategoryPage />} />
 
